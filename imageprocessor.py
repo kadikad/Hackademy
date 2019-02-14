@@ -15,12 +15,6 @@ def to_grayscale(an_image):#convert to grey color
 
 
 
-im=Image.open("C:\\Users\\kadira\\Desktop\\Pictures\\picture2.jpg")
-im=rotate_box(im)
-im.save("C:\\Users\\kadira\\Desktop\\Pictures\\greyscale\\picture2.jpg")
-
-
-
 rotate_all_images = code.get_filenames("C:\\Users\\kadira\\Desktop\\Pictures")
 for pic_name in rotate_all_images:
     im = Image.open(pic_name)
